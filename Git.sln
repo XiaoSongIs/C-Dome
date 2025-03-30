@@ -7,11 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UseReflect", "UseReflect\Us
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UseAttribute", "UseAttribute\UseAttribute.csproj", "{0AFF5953-B092-4073-BEC9-E4F5ADAC17DB}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MindMap", "MindMap", "{4AA164FF-8CB6-4D38-AFE4-AFF080F1FF40}"
-	ProjectSection(SolutionItems) = preProject
-		..\..\桌面\反射与程序集（Assembly）.png = ..\..\桌面\反射与程序集（Assembly）.png
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
