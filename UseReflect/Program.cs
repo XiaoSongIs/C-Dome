@@ -1,4 +1,4 @@
-﻿namespace UseReflect
+﻿namespace UseReflection
 {
     /// <summary>
     ///  反射的使用
