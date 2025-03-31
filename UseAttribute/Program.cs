@@ -8,23 +8,24 @@ namespace UseAttribute
     [MyAttribute("这是一个特性")]
     class Program
     {
-        static void Main(string[] args)
-        {
-            //// 获取特性
-            //Type type = typeof(Program);
-            //object[] obj = type.GetCustomAttributes(true);
-            //foreach (object o in obj)
-            //{
-            //    MyAttribute my = o as MyAttribute;
-            //    if (my != null)
-            //    {
-            //        Console.WriteLine(my._name);
-            //    }
-            //}
+        //static void Main(string[] args)
+        //{
+        //    //// 获取特性
+        //    //Type type = typeof(Program);
+        //    //object[] obj = type.GetCustomAttributes(true);
+        //    //foreach (object o in obj)
+        //    //{
+        //    //    MyAttribute my = o as MyAttribute;
+        //    //    if (my != null)
+        //    //    {
+        //    //        Console.WriteLine(my._name);
+        //    //    }
+        //    //}
 
-            AttributeInboke inboke = new AttributeInboke();
-            Console.WriteLine(inboke.GetRemark(MyEnum.Normal));
-        }
+        //    AttributeInboke inboke = new AttributeInboke();
+        //    Console.WriteLine(inboke.GetRemark(MyEnum.Normal));
+        //    Console.WriteLine(inboke.GetRemark("111"));
+        //}
     }
 
 
@@ -81,13 +82,14 @@ namespace UseAttribute
     /// </summary>
     public class AttributeInboke
     {
-        public string GetRemark(MyEnum myEnum)
+        // 修改为泛型类来获取枚举的特性
+        public string GetRemark<T>(T myEnum)
         {
             // 1.获取到枚举的类型
             // 2.获取到枚举的字段
             // 3.判断是否有特性
             // 4.获取特性
-            Type type = typeof(MyEnum);
+            Type type = typeof(T);
             var filed = type.GetField(myEnum.ToString());
             if (filed.IsDefined(typeof(RemarkAttribute), true))
             {
