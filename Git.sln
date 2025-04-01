@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UseAttribute", "UseAttribut
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UseDelegate", "UseDelegate\UseDelegate.csproj", "{2A3D2321-AE0A-471C-96D3-6542E866C9FD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Text", "Text\Text.csproj", "{8391A5DF-5FAF-44AE-BB7F-3751F5ADD984}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{2A3D2321-AE0A-471C-96D3-6542E866C9FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A3D2321-AE0A-471C-96D3-6542E866C9FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A3D2321-AE0A-471C-96D3-6542E866C9FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8391A5DF-5FAF-44AE-BB7F-3751F5ADD984}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8391A5DF-5FAF-44AE-BB7F-3751F5ADD984}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8391A5DF-5FAF-44AE-BB7F-3751F5ADD984}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8391A5DF-5FAF-44AE-BB7F-3751F5ADD984}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

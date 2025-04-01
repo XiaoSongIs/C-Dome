@@ -7,7 +7,10 @@ using System.Threading.Tasks;
 namespace UseDelegate
 {
     /// <summary>
-    /// 多播委托的使用
+    ///  多播委托的使用
+    ///  MulticastDelegate 委托的基类
+    ///  带返回值的委托只返回最后一个委托的返回值
+    ///  匿名方法会生成不同的名称，传递方法会生成相同的名称
     /// </summary>
     public class Use2
     {
@@ -18,10 +21,10 @@ namespace UseDelegate
         //{
         //    MyDelegate myDelegate = my1;
         //    myDelegate("My1");
+        //    myDelegate = MulticastDelegate.Combine(myDelegate, my2) as MyDelegate;
         //    myDelegate -= my1;
         //    myDelegate += my2;
         //    myDelegate.Invoke("My2");
-
-        //} 
+        //}
     }
 }
