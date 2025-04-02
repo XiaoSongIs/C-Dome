@@ -22,19 +22,19 @@ namespace UseDelegate
     class Use4
     {
 
-        static void Main(string[] args)
-        {
-            //But but = new But("Hello World");
-            //but.Clicked += (str) => Console.WriteLine(str);
-            //but.Click();
+        //static void Main(string[] args)
+        //{
+        //    //But but = new But("Hello World");
+        //    //but.Clicked += (str) => Console.WriteLine(str);
+        //    //but.Click();
 
-            P p = new P();
+        //    P p = new P();
 
-            PScribuer pScribuer = new PScribuer("pScribuer", p);
+        //    PScribuer pScribuer = new PScribuer("pScribuer", p);
 
-            p.DoClick();
+        //    p.DoClick();
 
-        }
+        //}
 
     }
 
