@@ -31,9 +31,40 @@ namespace Text
             //p.Invoke();
 
             //3
-            P2 p2 = new P2 { _jurisdiction = "Admin" };
-            Console.WriteLine(Permission.Invoke(p2).ToString());
+            //P2 p2 = new P2 { _jurisdiction = "Admin" };
+            //Console.WriteLine(Permission.Invoke(p2).ToString());
 
+
+            int[] nums1 = { 1, 2 };
+            int [] nums2 = { 3,4};
+            Console.WriteLine(FindMedianSortedArrays(nums1, nums2));
+
+        }
+
+
+
+        public static double FindMedianSortedArrays(int[] nums1, int[] nums2)
+        {
+            var list = new List<int>();
+            list.AddRange(nums1);
+            list.AddRange(nums2);
+            list.Sort();
+            
+            double sum = 0;
+
+            int count = list.Count;
+
+            if (count %2 == 0)
+            {
+                sum = list[(count / 2)] + list[(count / 2 - 1)];
+                sum = Convert.ToDouble(sum / 2);
+            }
+            else
+            {
+                sum = list[(count / 2)];
+            }
+
+            return (double)sum;
         }
     }
 }

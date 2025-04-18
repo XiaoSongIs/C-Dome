@@ -35,7 +35,6 @@ namespace UseDelegate
             {
                 Console.WriteLine(t.Age);
             }
-            
         }
     }
 
