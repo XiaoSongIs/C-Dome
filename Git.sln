@@ -15,7 +15,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UseThread", "UseThread\UseT
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UseDesign", "UseDesign\UseDesign.csproj", "{F47BEB7A-EAFA-4863-B5EC-28EEFF139581}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UseNode", "UseNode\UseNode.csproj", "{B214A461-29C2-4FEE-AAEE-4B9D52796186}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UseNode", "UseNode\UseNode.csproj", "{B214A461-29C2-4FEE-AAEE-4B9D52796186}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UseThree", "UseThree\UseThree.csproj", "{F465EDED-A8D1-4DE7-8C92-003EEBD99BDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UseSerialport", "UseSerialport\UseSerialport.csproj", "{B00FE938-49BE-487B-A386-085F5A618CCB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +55,14 @@ Global
 		{B214A461-29C2-4FEE-AAEE-4B9D52796186}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B214A461-29C2-4FEE-AAEE-4B9D52796186}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B214A461-29C2-4FEE-AAEE-4B9D52796186}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F465EDED-A8D1-4DE7-8C92-003EEBD99BDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F465EDED-A8D1-4DE7-8C92-003EEBD99BDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F465EDED-A8D1-4DE7-8C92-003EEBD99BDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F465EDED-A8D1-4DE7-8C92-003EEBD99BDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B00FE938-49BE-487B-A386-085F5A618CCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B00FE938-49BE-487B-A386-085F5A618CCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B00FE938-49BE-487B-A386-085F5A618CCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B00FE938-49BE-487B-A386-085F5A618CCB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
